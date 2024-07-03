@@ -1,0 +1,28 @@
+#everything-search {
+    position: absolute;
+    width: 19px;
+    height: 19px;
+    padding: 3px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(220, 220, 220);
+    border-image: initial;
+    border-radius: 5px;
+    background-size: 18px 18px;
+    background-color: rgb(245, 245, 245);
+    background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsSAAALEgHS3X78AAAEbElEQVRIia2Va2xUVRDHf3POvbv0tbRFeRigvIkpNBSJCSoqEh4KASEI0RCjMRE1GKP4BREtKQp+0mjiNyIgihoBNVAqCRIDATWmSstDbIs8BRRLt9Bud/feM37YLbR0YzD6T+6He+7c/8z8Z+YM3ASsYHMcS/cXIxiTw05uPLjho4hgnBIWWgZMHcyie8uYVlbCkIglEk8QP3SBhtoTbD0a5xsRnIBxirsZB2IEcYqbW8by6geoqhhGoUZQ0cx/miHQjjiypY7vqvaz9GyCeiNYp4T/6EAEUUVWTuLD6tk8JlFcmCRtDEY8fARwaJgmicGzUbxfmkgs3srC+svUdDnJ6cBkZHHPj+e9dx9hmVNSzmG8KF68BQ6f50JbkrYRpQwefRv5xsOlOwn9QvyjTXTM3MyUs53UGcHkIrcA44uZ1bIc1WqC4HUCrULXz+Dg2CKmCuQDtsAyaOFwVvy6lKv6BppcRUrXoRtmcSCrQu7oAd6fxm5di6ZeI6nV6JrJbAOMyLXiI1nbkQVMOfY0V3UN6laTTqxAJ5YyB+iZQlcHlPoMmz6aewjAjxI5eJyL1Qd5BsEZ8AFUERR8Q7S5nX2v7KaKFDhH2KcIZo3k4d4OJFP0YTFuH1JCnjpSKHzSwOdJ+MMT/FBJa6aBVMEFjhTA16f4uP4sV6xPFIGKgVTkykAAYlH6R30AlDQcb6EhG7XeKKmCikCH8vuJFk5iAAe3FFAMRHpXGQgdndpFZaDApyiX3fW4AIgWRCjoGo5kQBoIezjIps75dk7HEyBg8eG+oUzPStgLRrCqMCyfCRWDGEFIiMCZOOd6O8iOePMV6hvOc4YIHmnckonMqCxhbuAIPINvBS/7+CKZiV12B6sG9IcgICCAfaf4NitAzwysYBXaP6hjE0kIHa60H2yYz6byGLMCR9pBGCphqKRDR+TlCax/8X5muxShFyXaeI5E7W98CuDlENQA4ffnOPBnK9zaDxMk0YqRxPY+Rc3GH9m55yQ72tO0jiim/NFxLJk5nuFOCRVCQuzavbzzV5omK9geqlrBC5WgLJ/J2xdRWzmKWJjCWR/CgNAYjPhYkqAhSBSwEHSSFgvWw3+7ltqX9jFHhFC1W9l6kC9mV+UY+oYJnI1AvBVTWAg2AprOdAcgKIohIj7S2Yas28Nn1T/whAoJFFFQ2518aD6Tv1jErsqx9E21E/h52MYzJOdu5vG60zQOjDCuJEpBxMOK4GmAd/Ey+tXPHHpuBy981MhqEVy2HRUyd75xiivL567ti6mpHJMhj+TjNZ8mNW8LC47E2SmC+BAbFWPS4CKG53n0uZTgUnMrDReSHAOcEYwq2kV+DWX53PnTk7TpWjT5Kml9E216lmR5X2YDZFsz19rsmoWc6/IaNj7Ifn0L7VhJZzfyh7Ly+d06TIxgu82Bl/PO7wYvG6GHB3kxIs0nSc37mAVH4tTY7OXWZaygml2F/wpjY9y9bR6Hv5zPsfJiZmQj7zUj/xU2w3t9q/0f+BtSAtmNWYv2mQAAAABJRU5ErkJggg==');
+    background-position: center;
+    background-repeat: no-repeat;
+    box-sizing: content-box;
+    cursor: pointer;
+    z-index: 2147483647;
+}
+
+#everything-search:hover {
+    background-color: rgb(248, 248, 248);
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(198, 198, 198);
+    border-image: initial;
+}
