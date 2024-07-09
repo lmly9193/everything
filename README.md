@@ -1,1 +1,1 @@
-# chrome-extension-es
+# Chrome Extension for Everything
