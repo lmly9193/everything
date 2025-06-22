@@ -10,7 +10,7 @@
     border-radius: 5px;
     background-size: 18px 18px;
     background-color: rgb(245, 245, 245);
-    background-image: url('chrome-extension://__MSG_@@extension_id__/icons/32.png');
+    background-image: url(~/assets/button.png); // OR using => url('chrome-extension://__MSG_@@extension_id__/icon/32.png')
     background-position: center;
     background-repeat: no-repeat;
     box-sizing: content-box;

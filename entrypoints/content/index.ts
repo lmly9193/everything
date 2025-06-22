@@ -1,4 +1,4 @@
-import './content-script.scss';
+import './style.scss';
 
 class Selected {
   static get(): Selection | null {
@@ -82,7 +82,7 @@ class StateMachine {
 
   private handleClick(event: MouseEvent) {
     if (this.currentState === 'TextSearching' && event.target === this.tooltip.element) {
-      chrome.runtime.sendMessage({
+      browser.runtime.sendMessage({
         action: 'processQuery',
         query: Selected.text(),
       });
@@ -90,4 +90,9 @@ class StateMachine {
   }
 }
 
-new StateMachine(new Tooltip());
+export default defineContentScript({
+  matches: ['<all_urls>'],
+  main() {
+    new StateMachine(new Tooltip());
+  },
+});

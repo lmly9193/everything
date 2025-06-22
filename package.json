@@ -1,19 +1,23 @@
 {
-  "name": "everything",
+  "name": "everything-search-extension",
+  "description": "This extension allows you to search selected text on websites using Everything.",
   "private": true,
-  "version": "1.0.1",
+  "version": "1.1.0",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "dev": "wxt",
+    "dev:firefox": "wxt -b firefox",
+    "build": "wxt build",
+    "build:firefox": "wxt build -b firefox",
+    "zip": "wxt zip",
+    "zip:firefox": "wxt zip -b firefox",
+    "compile": "tsc --noEmit",
+    "postinstall": "wxt prepare"
   },
   "devDependencies": {
-    "@crxjs/vite-plugin": "^2.0.0-beta.26",
-    "@types/chrome": "^0.0.268",
-    "sass": "^1.77.6",
-    "typescript": "^5.2.2",
-    "vite": "^5.3.1"
+    "sass-embedded": "^1.89.2",
+    "typescript": "^5.8.3",
+    "wxt": "^0.20.6"
   },
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
+  "packageManager": "pnpm@10.12.2"
 }
